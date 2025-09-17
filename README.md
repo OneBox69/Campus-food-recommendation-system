@@ -28,6 +28,11 @@ and can be extended into a full recommendation engine.
 - Show the location on the school map and the distance
 - Login + encryption
 - Error handling
+- Favourite restaurant section - allow users to favourite restaurants, use that knowledge for suggesting restaurants as well.  
+- Reviews - photo uploading + 5 star + different tags?
+- Use deep learning models like transformers to detect subtle patterns in reviews (e.g., identifying a “hidden dislike” for certain ingredients despite an overall positive rating).
+- Maybe an onboarding process
+
 
 ## 🛠 Tech Stack
 
