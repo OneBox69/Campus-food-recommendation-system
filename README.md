@@ -2,14 +2,14 @@
 
 ## 📌 Overview
 
-A JavaFX-based application that recommends meals for campus students
-based on their preferences, budget, and dietary needs.
+A JavaFX-based application that recommends restaurant for campus students
+based on their preferences adn location.
 This project demonstrates clean architecture (DAO, Service, Presentation layers)
 and can be extended into a full recommendation engine.
 
 ## Notes
 
-- Scope of F&B from CBDs and filter out one or two restaurants.  (look from Meituan)
+- Scope of F&B from our school and filter out one or two restaurants.  (look from Meituan)
 - Build using Java - website
 - Instead of exact keyword search, use **NLP** to handle natural language.
     - Example: A user types *“cheap spicy noodles near dorm”* → system extracts *[cheap, spicy, noodles, location: dorm]*.
@@ -19,19 +19,15 @@ and can be extended into a full recommendation engine.
 
 - View meals with images
 - Search and filter meals
-    - Database includes: Price + distance + rating + cuisine preference + name
-    - Filter results include first choice + second choice + third choice
-- Save user preferences
-- Basic meal recommendation system
-    - Look at user’s past searches and recommend past + new shops
+    - Database includes: Price + distance + rating + cuisine preference + name +operating hour+location
+    - Filter results include first choice +second choice+...n choice(if have)
 - (Planned) Ratings & feedback
-- Show the location on the school map and the distance
+- Show the location on the school map and
+- Calculate the distance between the user and the restaurant
 - Login + encryption
 - Error handling
 - Favourite restaurant section - allow users to favourite restaurants, use that knowledge for suggesting restaurants as well.  
 - Reviews - photo uploading + 5 star + different tags?
-- Use deep learning models like transformers to detect subtle patterns in reviews (e.g., identifying a “hidden dislike” for certain ingredients despite an overall positive rating).
-- Maybe an onboarding process
 
 
 ## 🛠 Tech Stack
