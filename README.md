@@ -37,3 +37,5 @@ and can be extended into a full recommendation engine.
 ## 🛠 Tech Stack
 
 - Java + HTML + CSS
+
+https://docs.google.com/spreadsheets/d/17r_xPepRlxEt0EHtHF6j41vOq48ZuWlwJfK1ky5iqYY/edit?usp=sharing
