@@ -1,5 +1,7 @@
 # Campus Restaurant Recommendation System 🍔🎓
 
+Demo video: https://www.loom.com/share/eaa2a5eb98d3446688ed7a49d009fbd9
+
 ## 📌 Overview
 
 A JavaFX-based application that recommends restaurant for campus students
